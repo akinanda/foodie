@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/offer_container"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:clickable="true"
+    style="@android:style/Widget.ActionButton">
+
+    <ImageView
+        android:id="@+id/offer_count_img"
+        android:src="@drawable/offer_bell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="0dp"
+        android:contentDescription="Offer"
+        />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/offer_count"
+        android:layout_width="wrap_content"
+        android:minWidth="15sp"
+        android:textSize="12sp"
+        android:textColor="#FFFFFFFF"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="1"
+        android:layout_alignTop="@id/offer_count_img"
+        android:layout_alignRight="@id/offer_count_img"
+        android:layout_marginRight="-3dp"
+        android:layout_marginTop="-12dp"
+        android:paddingBottom="1dp"
+        android:paddingRight="2dp"
+        android:paddingLeft="2dp"
+        android:background="@drawable/offer_notification_action_bar_shape"/>
+</RelativeLayout>

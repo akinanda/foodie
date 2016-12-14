@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "737786454167",
+    "firebase_url": "https://sjsu-cafe-demo.firebaseio.com",
+    "project_id": "sjsu-cafe-demo",
+    "storage_bucket": "sjsu-cafe-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737786454167:android:23fd130f8147112b",
+        "android_client_info": {
+          "package_name": "edu.sjsu.cafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737786454167-jebaqraogbdrdff9rtosdug19l7fgqjm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlAvsMiqL9J7uVNPRmr_OHsoP5kAJCGPE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

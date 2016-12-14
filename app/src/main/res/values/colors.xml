@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Variables -->
+    <color name="notificationBarBackgroundColor">#000000</color>
+    <color name="actionBarBackgroundColor">#000000</color>
+    <color name="actionBarTextColor">#FFF1F1F1</color>
+    <color name="brandColor">#01579B</color>
+    <color name="splashVeilColor">#01579B</color>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="communicateBarBackground">#212121</color>
+    <color name="navigationBarBackground">#212121</color>
+    <color name="menuHeaderColor">#01579B</color>
+
+    <!-- Contants -->
+    <color name="colorPrimaryBlack">#000000</color>
+    <color name="colorAccent">#5E5E5E</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlackTranslucent">#AA000000</color>
+    <color name="colorBlackMoreTranslucent">#66000000</color>
+    <color name="colorBlackVeryTranslucent">#55000000</color>
+    <color name="colorOffWhite">#F1F1F1</color>
+    <color name="colorEEE">#EEEEEE</color>
+    <color name="colorDDD">#DDDDDD</color>
+    <color name="colorD1D1D1">#D1D1D1</color>
+    <color name="colorFAFAFA">#FAFAFA</color>
+    <color name="colorDCDCDC">#DCDCDC</color>
+    <color name="colorCCC">#CCCCCC</color>
+    <color name="colorBBB">#BBBBBB</color>
+    <color name="colorAAA">#AAAAAA</color>
+    <color name="actionButton">#009688</color>
+    <color name="tabUnderline">#008609</color>
+    <color name="hyperlink">#240086</color>
+    <color name="transparent">#00000000</color>
+    <color name="reserve">#DB2B3A</color>
+    <color name="share">#FDCA40</color>
+    <color name="website">#13A0D3</color>
+    <color name="colorMenuOfferCounter">#BC0010</color>
+    <color name="colorDeleteOffer">#DB2B3A</color>
+    <color name="colorBlackTranslucentAboutPage">#55000000</color>
+    <color name="colorWhiteTranslucent">#CCFFFFFF</color>
+    <color name="colorWhiteTranslucentAboutPage">#DFFFFFFF</color>
+
+</resources>

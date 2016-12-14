@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.sjsu.cafe">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.example.googlemaps.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:name="android.support.multidex.MultiDexApplication"
+        android:theme="@style/AppTheme">
+
+
+        <!-- Splash Screen Activity -->
+        <activity
+            android:name="edu.sjsu.cafe.SplashScreen"
+            android:configChanges="keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main Activity -->
+        <activity
+            android:name="edu.sjsu.cafe.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.HOME" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Restaurant Menu -->
+
+        <activity android:name="edu.sjsu.cafe.menu.RestaurantMenuDetailsActivity"
+            android:configChanges="keyboardHidden"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <!-- Gallery Image Activity -->
+        <activity
+            android:name="com.etiennelawlor.imagegallery.library.activities.ImageGalleryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label=""
+            android:theme="@style/ImageGalleryTheme" />
+
+        <!-- Notification Message Activity -->
+        <activity
+            android:name="edu.sjsu.cafe.messages.NotificationMessageActivity"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+
+        <!-- Offer Activity -->
+        <activity
+            android:name="edu.sjsu.cafe.offers.Offer"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait" />
+
+        <!-- Google Maps API Key -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAODAGFE7ICrG7C857W_H3Tb8AiVnu9SLE" />
+
+        <!-- Firebase Message Listening Service -->
+        <service android:name="edu.sjsu.cafe.FirebaseMessageService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <!-- Firebase Token Service -->
+        <service android:name="edu.sjsu.cafe.FirebaseTokenService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

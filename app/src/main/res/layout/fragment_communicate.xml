@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/communicate_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.sjsu.cafe.CommunicateFragment">
+
+    <LinearLayout
+        android:id="@+id/communicate_bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/communicateBarBackground"
+        android:orientation="horizontal">
+
+        <com.joanzapata.iconify.widget.IconTextView
+            android:id="@+id/communicate_call"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            style="@style/CommunicateButton"
+            android:text="@string/call_button_text"
+            android:textColor="@color/actionButton"/>
+
+        <com.joanzapata.iconify.widget.IconTextView
+            android:id="@+id/communicate_website"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            style="@style/CommunicateButton"
+            android:text="@string/website_button_text"
+            android:textColor="@color/website"/>
+
+        <com.joanzapata.iconify.widget.IconTextView
+            android:id="@+id/communicate_share"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            style="@style/CommunicateButton"
+            android:text="@string/share_button_text"
+            android:textColor="@color/share"/>
+
+    </LinearLayout>
+
+</FrameLayout>

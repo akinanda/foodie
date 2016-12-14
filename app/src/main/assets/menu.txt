@@ -1,0 +1,92 @@
+*Refreshments
+##Drinks
+---Coke, 1.99
+---Pepsi, 1.99
+---Dr. Peppers, 1.99
+---Fresh Juice, 2.99
+
+*Salads and Appetizers
+##Salad
+---Green Salad, 6.99
+---Mayo Salad, 7.99
+---Salad with Pistacio, 9.99
+---Salad with nuts, 9.99
+---Farm House Salad, 11.99
+---Chicken Salad, 11.99
+##Appetizers
+---French fries, 2.99
+---Grilled Bread with Mayo, 4.99
+---Garlic bread, 4.99
+
+
+*Soups
+##Vegetarian
+---Vegetable Talumein Soup, 4.99
+---Vegetable Manchow Soup, 4.99
+---Vegetable Sweet Corn Soup, 4.99
+---Vegetable Hot N Sour Soup, 4.99 
+---Vegetable Lung Fung Soup, 4.99
+---Vegetable Clear Soup, 4.99
+##Non-Vegetarian
+---Chicken Talumein Soup, 4.99
+---Chicken Manchow Soup, 4.99
+---Chicken Sweet Corn Soup, 4.99
+---Chicken Hot N Sour Soup, 4.99
+---Chicken Lung Fung Soup, 4.99
+---Chicken Clear Soup, 4.99
+---Chinese Mix Non-Veg. Soup, 4.99
+
+
+*Sandwiches
+##Vegetarian
+---Pesto Sandwich, 6.99
+---Farmhouse Sandwich, 6.99
+---Supreme Sandwich, 7.99
+---Tofu Sandwich, 8.99
+##Non-Vegetarian
+---Grilled Chicken Sandwich, 7.99
+---Pesto Chicken Sandwich, 7.99
+---Chicken Sandwich Buffalo Sauce, 8.99
+---The Great Chicken Sandwich, 9.99
+---Chicken Sandwich with Coke, 9.99
+
+*Pizza
+##Vegetarian
+---Margherita, 7.99
+---Fresh Veg, 7.99
+---Country Special, 9.99
+---Farmhouse, 9.99
+---5 Pepper, 10.99
+---Veg Gourmet, 11.99
+
+##Non-Vegetarian
+---Chicken and Cheese, 9.99
+---Chicken Fiesta, 9.99
+---Country Special, 10.99
+---Farmhouse, 10.99
+---Spicy Chicken, 12.99
+---Meatzaa, 12.99
+
+
+*Burgers
+##Vegetarian
+---Farmhouse, 4.99
+---Triple Veg Mac, 5.99
+---Mayo Burger, 5.99
+---Crispy Veg Burger, 6.99
+---Double Patty Burger, 6.99
+
+##Non-Vegetarian
+---Chicken Burger, 5.99
+---Double Chicken Burger, 6.99
+---Sesame Chicken Burger, 6.99
+---Chicken Fry Burger, 7.99
+---Golden Fried Onion Chicken, 8.99
+---Shreded Chicken Burger, 9.99
+
+*Desserts
+##Desserts
+---Choice of ice-cream, 3.99
+---Choice of Pastry, 4.99
+---Choco-Brownie with ice-cream, 5.99
+---Hot choco-lava cake with ice-cream, 5.99

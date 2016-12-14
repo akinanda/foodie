@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- App Configurations -->
+    <string name="app_name">SJSU Cafe</string>
+    <string name="business_reg_token">sjsucafe</string>
+    <string name="database_file">sjsucafe</string>
+    <string name="database_version">1</string>
+    <string name="address">SJSU Cafe\n SJSU,\nSan Jose, CA - 95113</string>
+    <string name="email">akshaynanda@gmail.com</string>
+    <string name="phone">123467980</string>
+    <string name="website">http://www.sjsu.edu/</string>
+    <string name="play_store_url">https://play.google.com/store/apps/details?id=edu.sjsu.cafe</string>
+
+
+    <!-- About Page -->
+    <string name="about_text"><b>ABOUT US</b>\nTaking pride in providing the same original family recipes and products throughout the area no matter where you are.\nOur Chefs offer you perfect cooking, best served dishes with fresh ingredients and old recipes. We have only carefully sourced and seasonal ingredients in our disposal to make rustic dishes. We provide you with daily self-made bread, sourdough pizza, roasted fish-meat-vegetables and many more.</string>
+    <string name="about_call_button_text">{fa-phone} Contact us</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Communicate Bar -->
+    <string name="call_button_text">{fa-phone}\n<font color='#FFFFFFFF' size='14'>Call</font></string>
+    <string name="website_button_text">{fa-globe}\n<font color='#FFFFFFFF' size='14'>Website</font></string>
+    <string name="share_button_text">{fa-share-alt}\n<font color='#FFFFFFFF' size='14'>Share</font></string>
+
+
+    <!-- Offers -->
+    <!-- Offer for first time app download -->
+    <string name="offer_validity">Avail the offer anytime until the offer due date.</string>
+    <string name="no_offers">No Active Offers</string>
+    <string name="delete_offer">{fa-remove} Delete Offer</string>
+    <string name="offers_page_title">Offers</string>
+
+    <string name="activate_first_time_offer">true</string>
+    <string name="first_time_offer_code">FIRST25</string>
+    <string name="first_time_offer_description">Get 25% off your first on a minimum bill value of 9.99</string>
+    <string name="first_time_offer_validity_days">365</string>
+    <string name="default_offer_validity_days">15</string>
+
+
+    <!-- Messages -->
+    <string name="no_messages">No Messages</string>
+    <string name="delete_message">{fa-remove} Delete Message</string>
+    <string name="ack_message">{fa-check} Ok</string>
+
+    <!-- Menu -->
+    <string name="add_sign">+</string>
+    <string name="minus_sign">-</string>
+
+    <!-- Recipe Search Page -->
+    <string name="food2forkAPI">http://food2fork.com/api/search</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Google SSO -->
+    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="signed_in">Signed in</string>
+    <string name="signing_in">Signing in…</string>
+    <string name="signed_out">Signed out</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+
+</resources>
+
